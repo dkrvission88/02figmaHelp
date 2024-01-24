@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.btn3 {
+  display: flex;
+  flex: 1;
+
+  justify-content: flex-end;
+  /* margin-bottom: 25px; */
+}
+.btn3 .btn03 {
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 20px;
+  width: 11%;
+}
+.botton{
+    margin-top: 20px;
+}
+
+.botton table,
+.botton th {
+  background: #b8edca;
+  border-collapse: collapse;
+  border-radius: 5px;
+  padding: 7px;
+
+}
+.botton table,
+.botton th,
+.botton td {
+  border: 1px solid #27B357;
+  text-align: center;
+  rotate: -90;
+
+  
+}
+
+.botton td{
+    padding: 25px;
+    
+    
+}
+.botton table,
+.botton th{
+    border: none;
+
+}
+/* table,
+th {
+  padding: 10px;
+  bottom: none; }*/
+
+.botton tr:hover {
+  background-color: rgb(241, 204, 191);
+}
